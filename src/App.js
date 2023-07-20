@@ -14,6 +14,10 @@ import ChildA from './Components/Context React/ChildA';
 import HttpRequesting from './Components/ReactHttp/HttpRequesting';
 import PostRequesting from './Components/ReactHttp/PostRequesting';
 
+import HookState from './Components/Hooks/useState';
+import PrevState from './Components/Hooks/prevState';
+import StatewithObject from './Components/Hooks/StatewithObject';
+
 function App() {
   return (
     <div className="container">
@@ -38,8 +42,13 @@ function App() {
      </UserProvider> */}
 
      {/* <HttpRequesting/> */}
-     
-     <PostRequesting/>
+
+     {/* <PostRequesting/> */}
+     {/* -----------------------------------HOOKS-------------------------------------------------- */}
+
+     {/* <HookState/> */}
+     {/* <PrevState/> */}
+     <StatewithObject/>
     </div>
   );
 }
