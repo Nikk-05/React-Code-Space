@@ -17,10 +17,17 @@ import PostRequesting from './Components/ReactHttp/PostRequesting';
 import HookState from './Components/Hooks/useState';
 import PrevState from './Components/Hooks/prevState';
 import StatewithObject from './Components/Hooks/StatewithObject';
+import StatewithArray from './Components/Hooks/StatewithArray';
+import UseEffectHook from './Components/Hooks/useEffectHook';
+import EffectOnlyOnce from './Components/Hooks/EffectOnlyOnce';
+import IntervalCounter from './Components/Hooks/IntervalCounter';
+import FetchAPI from './Components/Hooks/FetchAPI';
+
 
 function App() {
   return (
     <div className="container">
+    <h1>Hello App Component</h1>
      {/* <FormData/> */}
      {/* <LifeCycleMounting/> */}
      {/* <RegularPureParent/> */}
@@ -48,7 +55,17 @@ function App() {
 
      {/* <HookState/> */}
      {/* <PrevState/> */}
-     <StatewithObject/>
+     {/* <StatewithObject/> */}
+     {/* <StatewithArray/> */}
+
+     {/* <UseEffectHook/> */}
+
+     {/* <EffectOnlyOnce/> */}
+     {/* <IntervalCounter/> */}
+     <FetchAPI/>
+
+     
+     
     </div>
   );
 }
