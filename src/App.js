@@ -23,11 +23,12 @@ import EffectOnlyOnce from './Components/Hooks/EffectOnlyOnce';
 import IntervalCounter from './Components/Hooks/IntervalCounter';
 import FetchAPI from './Components/Hooks/FetchAPI';
 
+import HomeContainer from './Redux/Containers/HomeContainer';
+
 
 function App() {
   return (
-    <div className="container">
-    <h1>Hello App Component</h1>
+    <div>
      {/* <FormData/> */}
      {/* <LifeCycleMounting/> */}
      {/* <RegularPureParent/> */}
@@ -62,7 +63,10 @@ function App() {
 
      {/* <EffectOnlyOnce/> */}
      {/* <IntervalCounter/> */}
-     <FetchAPI/>
+     {/* <FetchAPI/> */}
+
+     {/* -----------------------------------REDUX-----------------------------------------------------*/}
+     <HomeContainer/>
 
      
      
